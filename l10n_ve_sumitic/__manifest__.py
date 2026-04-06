@@ -17,7 +17,7 @@
         "data/res_currency_data.xml",
         "data/template/account.tax.group.csv",
         "data/template/account.account.csv",
-        "data/template/account.tax.csv",
+        "data/template/account_tax_data.xml",
     ],
     "installable": True,
     "application": True,
