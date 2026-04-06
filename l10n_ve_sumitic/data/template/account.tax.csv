@@ -1,4 +1,4 @@
-"id","name","description","invoice_label","amount","amount_type","type_tax_use","tax_group_id","repartition_line_ids/repartition_type","repartition_line_ids/document_type","repartition_line_ids/account_id","description@es","invoice_label@es"
+id,name,description,invoice_label,amount,amount_type,type_tax_use,tax_group_id:id,repartition_line_ids/repartition_type,repartition_line_ids/account_id:id
 "tax_iva_16_sale","IVA 16% Ventas","IVA 16% Ventas","IVA (16%)","16.0","percent","sale","tax_group_iva_16","base","invoice","","IVA 16% Ventas","IVA (16%)"
 "","","","","","","","","tax","invoice","l10n_ve_sumitic.sumitic_ve_2172003","",""
 "","","","","","","","","base","refund","","",""
