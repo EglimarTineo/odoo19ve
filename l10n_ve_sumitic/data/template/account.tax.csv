@@ -1,6 +1,6 @@
-id,name,type_tax_use,tax_scope,amount,tax_group_id:id,invoice_repartition_line_ids/account_id:id,refund_repartition_line_ids/account_id:id,name@es
-tax_sale_iva_16,IVA 16% Ventas,sale,service,16.0,tax_group_iva_16,sumitic_ve_210201,sumitic_ve_210201,IVA 16% Ventas
-tax_purchase_iva_16,IVA 16% Compras,purchase,service,16.0,tax_group_iva_16,sumitic_ve_110501,sumitic_ve_110501,IVA 16% Compras
-tax_sale_igtf_3,IGTF 3% Percibido (Ventas),sale,service,3.0,tax_group_igtf_3,sumitic_ve_210202,sumitic_ve_210202,IGTF 3% Percibido
-tax_purchase_igtf_3,IGTF 3% Pagado (Compras),purchase,service,3.0,tax_group_igtf_3,sumitic_ve_5202,sumitic_ve_5202,IGTF 3% Pagado
-tax_sale_iva_0,IVA 0% Ventas (Exento),sale,service,0.0,tax_group_iva_0,,,IVA 0% Ventas (Exento)
+id,name,type_tax_use,tax_scope,amount,tax_group_id:id,name@es,invoice_repartition_line_ids,refund_repartition_line_ids
+tax_sale_iva_16,IVA 16% Ventas,sale,service,16.0,tax_group_iva_16,IVA 16% Ventas,"(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_210201')})","(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_210201')})"
+tax_purchase_iva_16,IVA 16% Compras,purchase,service,16.0,tax_group_iva_16,IVA 16% Compras,"(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_110501')})","(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_110501')})"
+tax_sale_igtf_3,IGTF 3% Percibido (Ventas),sale,service,3.0,tax_group_igtf_3,IGTF 3% Percibido,"(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_210202')})","(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_210202')})"
+tax_purchase_igtf_3,IGTF 3% Pagado (Compras),purchase,service,3.0,tax_group_igtf_3,IGTF 3% Pagado,"(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_5202')})","(0,0,{'repartition_type':'base'}),(0,0,{'repartition_type':'tax','account_id':ref('sumitic_ve_5202')})"
+tax_sale_iva_0,IVA 0% Ventas (Exento),sale,service,0.0,tax_group_iva_0,IVA 0% Ventas (Exento),"(0,0,{'repartition_type':'base'})","(0,0,{'repartition_type':'base'})"
