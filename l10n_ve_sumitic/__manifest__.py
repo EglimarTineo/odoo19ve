@@ -1,11 +1,11 @@
 # Part of Sumitic. See LICENSE file for full copyright and licensing details.
 {
     "name": "Venezuela - Localización Sumitic",
-    "version": "19.0.0.0",
+    "version": "19.0.1.0.0",
     "category": "Accounting/Localizations/Account Charts",
     "summary": "Localización contable estandarizada para Venezuela por Sumitic",
     "author": "Sumitic",
-    "website": "https://sumitic.lat",
+    "website": "https://www.sumitic.lat/",
     "license": "LGPL-3",
     "depends": [
         "account",
